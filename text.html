@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+
+    var num=prompt('选择92#请输入92；选择97#请输入97')-0;
+    var size=prompt('请您输入要加多少油“升”')-0;
+    if(num==92&&size>=20){
+        alert(('您需要付加油费')+size*5.9+('元'))
+    }
+    else if(num==92&&size<20&&size>0){
+        alert(('您需要付加油费')+size*6+('元'))
+    }
+    else if(num==97&&size>=20){
+        alert(('您需要付加油费')+size*6.95+('元'))
+    }
+     else if(num==97&&size<20&&size>0){
+        alert(('您需要付加油费')+size*7+('元'))
+    }
+    else{
+        alert('你是傻逼吧！输的是什么？')
+    }
+
+</script>
+
+</body>
+</html>
